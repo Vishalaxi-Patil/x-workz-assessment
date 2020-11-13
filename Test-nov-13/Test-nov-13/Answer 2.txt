@@ -1,0 +1,27 @@
+Explain types of variables with example.
+
+Ans::
+
+  Types of  Variable
+  1.Class variable
+  2.Local varible
+
+ 1.class variables are declared inside class but outside a method.
+   * Directly we can access the class variable any were  
+
+ 2.Local variables are declared inside method.
+ * local variables are visible only within method so can access local method outside method.
+ * There is no default value for local variable we intitialize before first use.
+
+
+    Ex::
+    public class Information
+   {
+       public static short age=23; //Class  Variable
+      public static void main(String[] info)
+     {
+           String name="Vishalaxi";   //Local Variable
+           System.out.println(name);
+      }
+  }
+  

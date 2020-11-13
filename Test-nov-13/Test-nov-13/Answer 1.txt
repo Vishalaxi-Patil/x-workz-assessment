@@ -1,0 +1,8 @@
+What is the difference between compile time and runtime?
+
+Ans::::
+
+Compile time                                                                                                                             Run time
+   Compile time error occurs when the program changes                                                             Runtime error occurs during excuation of program
+   syntatically or sematics                                                                                                                   Ex: int name/0; //divided by zero
+   Ex: int name:

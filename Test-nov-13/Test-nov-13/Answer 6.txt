@@ -1,0 +1,30 @@
+Explain array with example.
+
+Array::
+* Array are the set of values which are of same datatype.
+* these values are seperated by comma.
+  
+ Syntax::
+    String[] names={"Vishalaxi","shushma","vena"};   //Declaring variable with datatype of String which is array type and also initializing varibale name.
+* we have access array element using element index number.
+*we have access size of an array using length property.
+* when we have to access the array element which is greater than its size it will give exceptio that is ArrayIndexOutOfBoundsException
+
+program::
+   
+  public class OperationSystem
+ {
+    public static void main(String[]  system)
+ {
+      String[] osNames={ "Windows","linux","Apple"};
+      int size=osNames.length();
+      System.out.println("size of array::" +size);
+      System.out.println("element at index 0::"  +osNames[0]);
+       System.out.println("element at index 1::"  +osNames[2]);
+       System.out.println("element at index 3::"  +osNames[3]);
+}
+}
+     
+
+  
+  

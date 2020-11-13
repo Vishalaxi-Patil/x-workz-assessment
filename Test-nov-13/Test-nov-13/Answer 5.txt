@@ -1,0 +1,48 @@
+What is Encapsulation? Explain with an example
+   
+ Encapsulation::
+* Encapsulation means hiding data members from accessing class variables to other class variable.
+* Hiding data members using private access specifier.
+
+Syntax Declaration::
+   private static String name="Vishalaxi";
+* if datatypes of type String
+   private static String[] Mobiles={"sumsang","Redmi","Vivo","Oppo","Apple"};
+   
+* If we want to acces that class variable we have to use get method.
+   Ex::
+     public static String getName()
+    {
+         return name;
+     }
+
+*If we want update class variable we have to use set method
+Ex::
+    public static void setName(String name)
+   {
+      name="Shusma";
+     System.out.println(name);
+
+}
+}
+
+public class Encapsulation
+{
+    private static String name="Vishalaxi";
+    public static String getName()
+    {
+           return name;
+    }
+    public static void setName(String name)
+{
+     System.out.println("name::" +name);
+}
+public static void main(String[] name)
+{
+    Encapsulation.getame();
+    Encapsulation.setName("Shushma");
+}
+}
+
+
+   

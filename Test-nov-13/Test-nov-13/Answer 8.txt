@@ -1,0 +1,39 @@
+Explain Method overloading with two example.
+ 
+Method overloading::
+ * Method overloading will allows class to have more than one method name but change in the parameter
+*  change in the number of parameter
+*  change in the sequence of parameter
+*  change in the datatype of parameter
+  
+ Ex::
+  public class MethodOverloading
+{
+    public static void main(String[] info)
+   {
+    
+
+
+
+  }
+ public static void Watching(String hannelName,String filmName)
+{
+    System.out.println("arg1::" +channelName);
+    System.out.println("arg2::" +filmName);
+}
+ public static void Watching(int numberOfMusic, filmName)
+{
+    System.out.println("arg1::" +numberOfMusic);
+    System.out.println("arg2::" +filmName);
+}
+public static void main(String[] info);
+{
+    MethodOverloading.Watching("Zee kannada","ambhari");
+    MethodOverloading.Watching(4,"kushi");
+}
+}
+
+
+    
+ 
+

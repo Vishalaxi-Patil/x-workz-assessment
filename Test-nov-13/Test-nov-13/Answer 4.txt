@@ -1,0 +1,64 @@
+Explain method, parameter, argument and return types with example? 
+
+Method::
+* Method is a block of statement which only excuted when it is called.
+* Methods are used to reuse code.
+ 
+Declaration syntax:
+   public static int methodName(int start,int end)
+
+Ex:
+  public static int  Amazon(String items,int price)
+
+Program
+public class Addition
+{
+    public static void main(String[] info)
+{
+    Addition.add(10,20);
+
+
+
+}
+public static int add(int num1,int num2)
+{
+     System.out.println("arg1::" +num1);
+     System.out.println("arg2::" +num2);
+     System.out.println(num1+num2);
+     return 0;
+}
+}
+
+
+Parameter::
+* Parameters are the variables specified after method name inside paraenthesis.
+
+Arguments::
+* When parameter are passed to an method are called arguments
+
+Ex::
+public class Addition
+{
+    public static void main(String[] info)
+{
+    Addition.add(10,20);  // Here 10 and 20 are the arguments
+
+
+
+}
+public static int add(int num1,int num2)  //Here int num1 and num2 are parameter
+{
+     System.out.println("arg1::" +num1);
+     System.out.println("arg2::" +num2);
+     System.out.println(num1+num2);
+     return 0;
+}
+}
+
+
+
+
+
+   
+
+ 

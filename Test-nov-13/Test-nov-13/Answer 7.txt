@@ -1,0 +1,15 @@
+Write code to display elements of an array?
+
+public class OperationSystem
+ {
+    public static void main(String[]  system)
+ {
+      String[] osNames={ "Windows","linux","Apple"};
+      int size=osNames.length();
+      System.out.println("size of array::" +size);
+      System.out.println("element at index 0::"  +osNames[0]);
+       System.out.println("element at index 1::"  +osNames[2]);
+       System.out.println("element at index 3::"  +osNames[3]);
+}
+}
+     
